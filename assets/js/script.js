@@ -1,4 +1,5 @@
-function réduireImage(){
-    document.getElementById("photo").style.height ='200px';
-    document.getElementById("photo").style.width ='200px';
+function reduceImage(){
+    var element = document.getElementById("photo");
+    element.style.height ='200px';
+    element.style.width ='200px';
 }
